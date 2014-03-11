@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:background="@drawable/white"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:background="@drawable/white"  >
+    
+<!-- 第一个纪录-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="75dp"
+		android:layout_height="wrap_content">
+		<ImageView
+		android:id="@+id/iv1"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:src="@drawable/bitmap8" 
+		android:layout_gravity="center_horizontal"
+		android:paddingTop="10dp"
+		/> 
+		<TextView android:id="@+id/zuozhe1"
+		style="@style/list_text_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView android:id="@+id/biaoti1"  style="@style/title_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content"
+		android:gravity="center_vertical"  android:paddingTop="10dp" />
+		
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView android:id="@+id/zhuangtai1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:text="PK中"
+			 />
+			<TextView android:id="@+id/biaoqian1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp" />
+			<TextView android:id="@+id/shijian1"  style="@style/text_gray"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:gravity="right" 
+			android:paddingLeft="10dp"  android:paddingRight="5dp" />	
+	    </LinearLayout>
+	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView android:id="@+id/jiezhi1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:text="截止时间："
+			 />
+			<TextView android:id="@+id/deadline1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"  />
+	    </LinearLayout>
+	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:text="支持："
+			 />
+			<TextView android:id="@+id/zhichi1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"  />
+	    </LinearLayout>
+	    
+	</LinearLayout>
+</LinearLayout>
+
+<TextView 
+android:id="@+id/zhengwen1"  style="@style/text_black"
+android:layout_width="fill_parent"  android:layout_height="wrap_content"
+android:text="正文 。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。"
+android:padding="10dp"  />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tupian1" 
+android:orientation="vertical"  android:paddingLeft="10dp" android:paddingRight="10dp" 
+android:layout_width="wrap_content"  android:layout_height="wrap_content"  >
+</LinearLayout>
+
+<Button
+android:id="@+id/b1"
+android:layout_height="40dp"  android:layout_width="80dp" 
+android:text="顶我！"
+android:layout_gravity="center_horizontal"
+/>
+
+<TableLayout xmlns:Android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:stretchColumns="*"  
+    >  
+    <TableRow> 
+	  <Button
+	  android:id="@+id/b3"
+	  android:layout_height="40dp"
+	  android:text="查看评论"
+	  android:layout_width="1dip"
+	  />  
+	  <Button
+	  android:id="@+id/b4"
+	  android:layout_height="40dp"
+	  android:text="发表评论"
+	  android:layout_width="1dip"
+	  /> 
+    </TableRow>  
+</TableLayout> 
+
+<!--中部PK -->
+
+<TextView  
+    android:id="@+id/tv2" android:text="VS"
+    android:textSize="20sp" android:textColor="@drawable/white"
+    android:layout_width="fill_parent"  android:layout_height="wrap_content"
+    android:background="@drawable/red" android:gravity="center_horizontal|center_vertical"
+/> 
+
+<!-- 第二个纪录-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="75dp"
+		android:layout_height="wrap_content">
+		<ImageView
+		android:id="@+id/iv2"
+		android:layout_width="70dp"
+		android:layout_height="70dp"
+		android:src="@drawable/bitmap8" 
+		android:layout_gravity="center_horizontal"
+		android:paddingTop="10dp"
+		/> 
+		<TextView android:id="@+id/zuozhe2"
+		style="@style/list_text_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView android:id="@+id/biaoti2"  style="@style/title_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content"
+		android:gravity="center_vertical"  android:paddingTop="10dp" />
+		
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView android:id="@+id/zhuangtai2"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"  android:text="PK中"
+			 />
+			<TextView android:id="@+id/biaoqian2"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp" />
+			<TextView android:id="@+id/shijian2"  style="@style/text_gray"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:gravity="right" 
+			android:paddingLeft="10dp"  android:paddingRight="5dp" />	
+	    </LinearLayout>
+	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView android:id="@+id/jiezhi2"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:text="截止时间："
+			 />
+			<TextView android:id="@+id/deadline2"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"  />
+	    </LinearLayout>
+	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">		
+		    <TextView  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" android:text="支持："
+			 />
+			<TextView android:id="@+id/zhichi2"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"  />
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+
+<TextView 
+android:id="@+id/zhengwen2"  style="@style/text_black"
+android:layout_width="fill_parent"  android:layout_height="wrap_content"
+android:text="正文 。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。"
+android:padding="10dp"  />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tupian2" 
+android:orientation="vertical"  android:paddingLeft="10dp" android:paddingRight="10dp" 
+android:layout_width="wrap_content"  android:layout_height="wrap_content"  >
+</LinearLayout>
+
+<Button
+android:id="@+id/b2"
+android:layout_height="40dp"  android:layout_width="80dp" 
+android:text="顶我！"
+android:layout_gravity="center_horizontal"
+/>
+
+<TableLayout xmlns:Android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:stretchColumns="*"  
+    >  
+    <TableRow> 
+	  <Button
+	  android:id="@+id/b5"
+	  android:layout_height="40dp"
+	  android:text="查看评论"
+	  android:layout_width="1dip"
+	  />  
+	  <Button
+	  android:id="@+id/b6"
+	  android:layout_height="40dp"
+	  android:text="发表评论"
+	  android:layout_width="1dip"
+	  /> 
+    </TableRow>  
+</TableLayout> 
+
+</LinearLayout>
+</ScrollView>

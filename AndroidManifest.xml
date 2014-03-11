@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="irdc.sns"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application 
+    android:icon="@drawable/icon" 
+    android:label="@string/app_name"
+    android:name=".whole" >
+        <activity android:name=".kaiji"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      <activity android:name="sns"></activity>
+      <activity android:name="grzhuye1"></activity>
+      <activity android:name="pinglun5_1"></activity> 
+      <activity android:name="tongguo6"></activity>
+      <activity android:name="fbjilu7"></activity>
+      <activity android:name="wodejilu7_1"></activity>
+      <activity android:name="pk8"></activity>
+      <activity android:name="FirstPage_3"></activity>
+      <activity android:name="pingding5"></activity>
+      <activity android:name="RegisterActivity_2"></activity>
+      <activity android:name="Record_4"></activity>
+      <activity android:name="Record_4_1"></activity>
+      <activity android:name="Record_4_2"></activity>
+      <activity android:name="Record_4_3"></activity>
+      <activity android:name="friend_6"></activity>
+      <activity android:name="tzjilu"></activity>
+      
+    </application>
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

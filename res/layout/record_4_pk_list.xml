@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="wrap_content" android:background="@drawable/white">
+
+<LinearLayout 
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content"  android:layout_marginTop="10dp" 
+	>
+
+	<TextView  style="@style/list_text_black" android:text="支持：" 
+	android:paddingLeft="32dp"  android:layout_marginTop="23dp"
+	android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+	<TextView  style="@style/list_text_black"  android:id="@+id/zhichi1"  
+	android:text="3"  android:layout_marginTop="23dp"
+	android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+	
+	<LinearLayout 
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"   >
+		<ImageView android:layout_marginLeft="10dp" android:layout_marginRight="3dp"
+		android:id="@+id/iv1" android:src="@drawable/bitmap8"   
+		android:layout_width="40dp" android:layout_height="40dp"  /> 
+		<TextView 
+		android:id="@+id/zuozhe1" style="@style/list_text_black"
+		android:layout_width="wrap_content"  android:layout_height="wrap_content"
+		android:text="yxt"   android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+	
+	<ImageView 
+	android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+	android:layout_width="20dp" android:layout_height="40dp"
+	android:src="@drawable/vs"  /> 
+	
+	<LinearLayout 
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" >
+		<ImageView android:layout_marginLeft="3dp" 
+		android:id="@+id/iv2" android:src="@drawable/bitmap8"   
+		android:layout_width="40dp" android:layout_height="40dp"  /> 
+		<TextView  
+		android:id="@+id/zuozhe2" style="@style/list_text_black"
+		android:layout_width="wrap_content"  android:layout_height="wrap_content"
+		android:text="yxt"   android:layout_gravity="center_horizontal"/>
+	</LinearLayout>
+	
+	<TextView  style="@style/list_text_black" android:text="支持：" 
+	android:layout_marginLeft="10dp" android:layout_marginTop="23dp"
+	android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+	<TextView  style="@style/list_text_black"  android:id="@+id/zhichi2" 
+	 android:text="1"  android:layout_marginTop="23dp"
+	android:layout_width="wrap_content"  android:layout_height="wrap_content" />
+	
+</LinearLayout>
+
+<TableLayout xmlns:Android="http://schemas.android.com/apk/res/android"  
+	    android:layout_width="fill_parent"   android:layout_height="wrap_content"    
+	    android:layout_gravity="center_horizontal" android:padding="3dp" 
+        android:stretchColumns="*"  >  
+	    <TableRow>   
+	    <TextView android:id="@+id/biaoti1"  style="@style/list_title_black"
+		android:text="标题标题标题标题标题校园吉尼斯" android:layout_width="1dip"
+		android:paddingRight="5dp"/>
+		<TextView android:id="@+id/biaoti2"  style="@style/list_title_black"
+		android:text="第二个标题！阿偶哈哈" android:layout_width="1dip"
+		android:paddingLeft="5dp"/>
+	    </TableRow>
+
+</TableLayout>
+
+</LinearLayout>

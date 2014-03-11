@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"  
+	android:background="@drawable/white"
+	android:gravity="center_horizontal" >
+	
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"   android:layout_height="wrap_content" 
+    android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="60dp"
+    android:stretchColumns="*">
+    <TableRow>   
+    <ImageButton android:src="@drawable/i1" android:id="@+id/b1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageButton android:src="@drawable/i2" android:id="@+id/b2" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:paddingLeft="15dp" android:layout_marginLeft="30dp"  android:layout_marginRight="30dp"/>
+    <ImageButton android:src="@drawable/i3" android:id="@+id/b3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>    
+    
+    <TableRow>   
+    <TextView style="@style/text_black"  android:text="个人主页" android:layout_marginBottom="60dp" />
+    <TextView style="@style/text_black"  android:text="校园吉尼斯"  android:layout_marginLeft="30dp"/>
+    <TextView style="@style/text_black"  android:text="评定中…"  android:layout_marginLeft="10dp"/>
+    </TableRow> 
+    
+    <TableRow>   
+    <ImageButton android:src="@drawable/i4" android:id="@+id/b4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageButton android:src="@drawable/i5" android:id="@+id/b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="15dp" android:layout_marginLeft="30dp"  android:layout_marginRight="30dp"/>
+    <ImageButton android:src="@drawable/i6" android:id="@+id/b6" android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+    </TableRow> 
+    
+    <TableRow>   
+    <TextView style="@style/text_black"  android:text="火热PK"  android:layout_marginBottom="60dp" android:layout_marginLeft="10dp"/>
+    <TextView style="@style/text_black"  android:text="发布纪录"  android:layout_marginLeft="35dp"/>
+    <TextView style="@style/text_black"  android:text="我的好友"  android:layout_marginLeft="3dp" />
+    </TableRow> 
+
+</TableLayout>  
+
+</LinearLayout>

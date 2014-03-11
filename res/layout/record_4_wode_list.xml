@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="55dp"
+	android:layout_height="wrap_content">
+<ImageView
+android:id="@+id/iv1"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:src="@drawable/bitmap8" 
+android:layout_gravity="center_horizontal"
+android:paddingTop="10dp"
+/> 
+<TextView android:id="@+id/zuozhe1"
+style="@style/list_text_black"
+android:layout_width="fill_parent"  android:layout_height="wrap_content"
+android:gravity="center_vertical|center_horizontal"
+/>
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+    <TextView android:id="@+id/biaoti1"  style="@style/list_title_black"
+	android:layout_width="fill_parent"  android:layout_height="wrap_content"
+	android:gravity="center_vertical"  android:paddingTop="10dp" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	
+		    <TextView android:text="状态：" style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" />
+				<TextView android:id="@+id/zhuangtai1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp" />
+	</LinearLayout>	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	
+		    <TextView android:text="标签："  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical" />
+				<TextView android:id="@+id/biaoqian1"  style="@style/list_text_black"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+			android:paddingLeft="10dp" />
+	</LinearLayout>
+	<TextView android:id="@+id/shijian1"  style="@style/list_text_gray"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="right"    android:paddingRight="5dp" />
+</LinearLayout>
+</LinearLayout>

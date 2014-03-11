@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, sns!</string>
+    <string name="app_name">校园吉尼斯SNS</string>
+    <string name="username">用户名</string>
+    <string name="password">密      码</string>
+    
+    <string name="login">登陆</string>
+    <string name="passwordsure">密码确认</string>
+    <string name="mail">邮箱</string>
+    <string name="firstpage">首页</string>
+    
+    <string name="guinness">吉尼斯</string>
+    <string name="record">纪录</string>
+    <string name="freinds">好友</string>
+    <string name="publish">发表</string>
+    <string name="conditon">状态</string>
+    <string name="guinness_record">吉尼斯纪录</string>
+    <string name="publish_record">发表纪录</string>
+<string name="app_about">发表评论</string>
+<string name="str_exit">返回</string>
+<string name="str_ok">确认</string>
+  <array name="tzfs">
+    <item>发布新纪录</item>
+    <item>使用已有纪录</item>
+  </array>
+  <array name="tzjilu">
+    <item>确定挑战</item>
+    <item>查看正文</item>  
+  </array>
+  <array name="fbjilu">
+    <item>发布新纪录</item>
+    <item>使用草稿箱里的记录</item>  
+  </array>
+
+
+<string name="str_alert_title">请选择挑战方式：</string>
+<string name="json">{&quot;user_info&quot;:{&quot;uid&quot;:&quot;1&quot;,&quot;username&quot;:&quot;root&quot;,&quot;credit&quot;:&quot;1074&quot;,&quot;experience&quot;:&quot;939&quot;,&quot;name&quot;:&quot;\u79a4\u6da6\u5802&quot;,&quot;sex&quot;:&quot;1&quot;,&quot;birthyear&quot;:&quot;1989&quot;,&quot;birthmonth&quot;:&quot;11&quot;,&quot;birthday&quot;:&quot;30&quot;,&quot;blood&quot;:&quot;O&quot;,&quot;marry&quot;:&quot;2&quot;,&quot;birthprovince&quot;:&quot;\u5e7f\u897f&quot;,&quot;birthcity&quot;:&quot;\u68a7\u5dde&quot;,&quot;resideprovince&quot;:&quot;\u5317\u4eac&quot;,&quot;residecity&quot;:&quot;\u6d77\u6dc0&quot;,&quot;email&quot;:&quot;xuanruntang@gmail.com&quot;,&quot;qq&quot;:&quot;404622085&quot;,&quot;space_comment&quot;:[{&quot;message&quot;:&quot;comment_test&quot;,&quot;authorid&quot;:&quot;2&quot;,&quot;author&quot;:&quot;bravo&quot;,&quot;dateline&quot;:&quot;2011-07-28 15:15&quot;},{&quot;message&quot;:&quot;comment_test&quot;,&quot;authorid&quot;:&quot;4&quot;,&quot;author&quot;:&quot;zero&quot;,&quot;dateline&quot;:&quot;2011-07-28 15:12&quot;},{&quot;message&quot;:&quot;comment_test&quot;,&quot;authorid&quot;:&quot;4&quot;,&quot;author&quot;:&quot;zero&quot;,&quot;dateline&quot;:&quot;2011-07-28 15:09&quot;},{&quot;message&quot;:&quot;hahahaha&quot;,&quot;authorid&quot;:&quot;3&quot;,&quot;author&quot;:&quot;baga&quot;,&quot;dateline&quot;:&quot;2011-07-27 22:10&quot;},{&quot;message&quot;:&quot;comment_test&quot;,&quot;authorid&quot;:&quot;2&quot;,&quot;author&quot;:&quot;bravo&quot;,&quot;dateline&quot;:&quot;1970-01-01 08:33&quot;}]}}</string>
+
+</resources>

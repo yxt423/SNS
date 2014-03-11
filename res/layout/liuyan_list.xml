@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="75dp"
+	android:layout_height="wrap_content">
+	<ImageView
+	android:id="@+id/iv1"
+	android:layout_width="70dp"
+	android:layout_height="50dp"
+	android:src="@drawable/bitmap8" 
+	android:layout_gravity="center_horizontal"
+	android:paddingTop="10dp"
+	/> 
+	<TextView android:id="@+id/zuozhe1"
+	style="@style/list_text_black"
+	android:layout_width="fill_parent"  android:layout_height="wrap_content"
+	android:gravity="center_vertical|center_horizontal"
+	/>
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+    <TextView android:id="@+id/zhengwen1"  style="@style/list_text_black"
+	android:layout_width="fill_parent"  android:layout_height="wrap_content"
+	android:paddingTop="10dp" />
+	<TextView android:id="@+id/shijian1"  style="@style/list_text_gray"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:gravity="right"  
+	android:paddingRight="10dp" />
+</LinearLayout>
+
+</LinearLayout>

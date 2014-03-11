@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/white" 
+ >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/lvtongguo6"  android:orientation="vertical"
+android:layout_width="fill_parent"  android:layout_height="fill_parent"
+
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+		<ImageView
+		android:id="@+id/iv0"
+		android:layout_width="90dp" android:layout_height="90dp"
+		android:src="@drawable/bitmap8" 
+		android:layout_gravity="center_horizontal"
+		android:paddingTop="10dp"
+		/> 
+		<TextView android:id="@+id/zuozhe1"
+		style="@style/text_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView android:id="@+id/biaoti1"  style="@style/title_black"
+		android:layout_width="fill_parent"  android:layout_height="wrap_content" 
+		android:paddingTop="10dp" />
+		
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		
+		    <TextView android:id="@+id/zhuangtai1"  style="@style/text_black"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  
+			android:text="已通过"/>
+			<TextView android:id="@+id/biaoqian1"  style="@style/text_black"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="10dp" />  
+			<TextView android:id="@+id/shijian1"  style="@style/text_gray"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="right" 
+			android:paddingLeft="5dp"  android:paddingRight="5dp" />
+	
+	    </LinearLayout> 
+	</LinearLayout> 
+</LinearLayout>
+
+<TextView 
+android:id="@+id/zhengwen1"  style="@style/text_black"
+android:layout_width="fill_parent"  android:layout_height="wrap_content"
+android:text="正文 "
+android:padding="10dp"  />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tupian" 
+android:orientation="vertical"  android:paddingLeft="10dp" android:paddingRight="10dp" 
+android:layout_width="wrap_content"  android:layout_height="wrap_content"  >
+</LinearLayout>
+
+<Button
+android:id="@+id/b1"  android:text="确认挑战"
+android:layout_marginLeft="106dp" 
+android:layout_height="40dp"  android:layout_width="105dp"
+/> 
+
+</LinearLayout>
+</ScrollView>
